@@ -15,14 +15,20 @@ Explore and analyze meteorological data for Kaiserslautern in the year 2023 with
 1. Clone the repository.
 2. Set up a virtual environment.
 3. Run the Python script `weather.py` to generate interactive visualizations.
-4. Explore the `weather.html` file for detailed charts and insights.
+4. Explore the https://chameleon505.github.io/KL-Weather-2023-Analysis/ for detailed charts and insights.
 
 ## Project Structure
 
 - `weather.py`: Python script for data analysis and visualization.
-- `weather.html`: HTML file containing interactive visualizations.
+- `index.html`: HTML file containing interactive visualizations.
 - `dataset/`: Folder with the Kaiserslautern weather dataset (Kaiserslautern_new.csv).
 
+  
+## Visual Results
+
+You can view the visual results and plots by visiting the GitHub Pages site:
+
+- [GitHub Pages](https://chameleon505.github.io/KL-Weather-2023-Analysis/)
 ## Dependencies
 
 - Bokeh
