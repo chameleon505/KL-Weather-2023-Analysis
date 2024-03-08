@@ -7,7 +7,7 @@ from bokeh.layouts import column
 from bokeh.models.tickers import MonthsTicker
 
 # Load the dataset from a CSV file into a pandas DataFrame
-df_kl = pd.read_csv('Kaiserslautern_new.csv', parse_dates=['date'], index_col='date')
+df_kl = pd.read_csv('dataset/Kaiserslautern_new.csv', parse_dates=['date'], index_col='date')
 
 # Function to create a temperature chart
 def create_temperature_chart(df, width=900):
